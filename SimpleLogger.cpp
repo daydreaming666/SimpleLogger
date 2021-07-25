@@ -1,8 +1,5 @@
 #include "SimpleLogger.hpp"
 
-#include <utility>
-
-
 void SimpleLogger::printer(LogLevel logLevel, const std::string& tag, const std::string& msg) {
     std::string level;
     switch (logLevel) {
